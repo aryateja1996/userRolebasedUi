@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "306566699223",
-    "firebase_url": "https://capstone-233dd.firebaseio.com",
-    "project_id": "capstone-233dd",
-    "storage_bucket": "capstone-233dd.appspot.com"
+    "project_number": "633245494403",
+    "firebase_url": "https://capstone-295608.firebaseio.com",
+    "project_id": "capstone-295608",
+    "storage_bucket": "capstone-295608.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:306566699223:android:d849616a01d46c56afb892",
+        "mobilesdk_app_id": "1:633245494403:android:65cea8025f22110c913fb6",
         "android_client_info": {
           "package_name": "com.indiworks.employee"
         }
       },
       "oauth_client": [
         {
-          "client_id": "306566699223-9vjubckps44nfjglbg3hrenaognu2n3b.apps.googleusercontent.com",
+          "client_id": "633245494403-sqdav43h5a06i1oh3ehd09s1rs5en8s7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDdzhdd9Wt4QdVF9DTEnfROkfvQh4lCh8o"
+          "current_key": "AIzaSyBawc8v8_Q1JhdZFZEQNoWnp1dZAcKxArM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "306566699223-9vjubckps44nfjglbg3hrenaognu2n3b.apps.googleusercontent.com",
+              "client_id": "633245494403-sqdav43h5a06i1oh3ehd09s1rs5en8s7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

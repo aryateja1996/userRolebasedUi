@@ -13,3 +13,7 @@ export 'screens/user/user.dart';
 export 'screens/additional/loading.dart';
 
 export 'screens/splash.dart';
+
+export 'screens/additional/data.dart';
+
+export 'package:url_launcher/url_launcher.dart';

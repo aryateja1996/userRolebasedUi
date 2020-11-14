@@ -25,7 +25,7 @@ class _AllUserState extends State<AllUser> {
   @override
   Widget build(BuildContext context) {
     User user = FirebaseAuth.instance.currentUser;
-    CollectionReference ref = FirebaseFirestore.instance.collection("user");
+    CollectionReference ref = FirebaseFirestore.instance.collection("users");
     return FutureBuilder<DocumentSnapshot>(
       future: ref.doc(user.uid).get(),
       builder:
@@ -34,9 +34,13 @@ class _AllUserState extends State<AllUser> {
           return null;
         }
         if (snapshot.connectionState == ConnectionState.done) {
-          Map<String, dynamic> data = snapshot.data.data();
-          if (data['admin']) {
-            return TeleCaller();
+          Map<String, dynamic> userData = snapshot.data.data();
+          if (userData['designation'] == 'telecaller') {
+            return TeleCaller(
+              name: userData['name'],
+              imgUrl: userData['imgUrl'],
+              phone: userData['phone'],
+            );
           } else {
             //Create a new page and call it or you can directly do this
             return Scaffold(
