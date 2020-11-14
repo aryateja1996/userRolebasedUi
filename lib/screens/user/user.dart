@@ -1,4 +1,5 @@
 import 'package:employee/exports.dart';
+import 'package:employee/screens/telecaller/teleCaller.dart';
 import 'package:flutter/material.dart';
 
 class AllUser extends StatefulWidget {
@@ -35,7 +36,7 @@ class _AllUserState extends State<AllUser> {
         if (snapshot.connectionState == ConnectionState.done) {
           Map<String, dynamic> data = snapshot.data.data();
           if (data['admin']) {
-            return Admin();
+            return TeleCaller();
           } else {
             //Create a new page and call it or you can directly do this
             return Scaffold(

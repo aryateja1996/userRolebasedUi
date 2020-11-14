@@ -1,13 +1,7 @@
 import 'package:employee/exports.dart';
 import 'package:flutter/material.dart';
 
-class Admin extends StatefulWidget {
-  @override
-  _AdminState createState() => _AdminState();
-}
-
-class _AdminState extends State<Admin> {
-  @override
+class TeleCaller extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
