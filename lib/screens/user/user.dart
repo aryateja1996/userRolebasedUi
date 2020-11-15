@@ -40,6 +40,7 @@ class _AllUserState extends State<AllUser> {
               name: userData['name'],
               imgUrl: userData['imgUrl'],
               phone: userData['phone'],
+              email: userData['email'],
             );
           } else {
             //Create a new page and call it or you can directly do this
